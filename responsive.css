@@ -1,0 +1,936 @@
+@media(max-width:1320px){
+    .container{
+        padding-left:130px;
+        padding-right:130px;
+    }
+}
+@media(max-width:1200px){
+    .container{
+        padding-left:108px;
+        padding-right:108px;
+    }
+
+    /* ===== Header ===== */
+    .offcanvas{
+        padding: 0 40px !important;
+    }
+
+    /* ====== Features ====== */
+    .features .data{
+        padding-left: 0;
+    }
+    .features .carousel-indicators{
+        display: none;
+    }
+    .features .features-data h3{
+        font-size: 40px;
+    }
+    .features .features-data p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /* ====== About - Us ====== */
+    .about-us .col-5{
+        width: 50%;
+    }
+
+    /* ======= Team ======= */
+    .team .team-data h2{
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .team .team-data p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* ====== Stories ====== */
+    .stories .story-cards-img .img-inner{     
+        width: 10%;
+    }
+
+    /* ====== Footer ====== */
+    footer .col-6{
+        padding-left: 50px;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    footer .col-6::after{
+        display: none;
+    }
+    footer .col-3{
+        width: 50%;
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+    footer .col-2{
+        width: 50%;
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+    footer .col-1{
+        width: 50%;
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }
+}
+@media(max-width:1024px){
+    .container{
+        padding-left:60px;
+        padding-right:60px;
+    }
+
+    /* ===== Header ===== */
+    .offcanvas{
+        padding: 0 20px !important;
+    }
+
+    /* ====== Features ====== */
+    .features .ability h2{
+        font-size: 30px;
+    }
+    .features .ability span{
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        padding-left:40px !important;
+        padding-right:40px !important;
+    }
+
+    /* ===== Header ===== */
+    header .menu{
+        display: none !important;
+    }
+    header .item li{
+        padding: 0 !important;
+    }
+    header .item .search{
+        padding: 0 !important;
+    }
+
+    /* ===== Banner ===== */
+    .banner{
+        position: relative;
+    }
+    .banner .row{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .banner .col-5{
+        width: 80%;
+        position: absolute;
+        top: 0;
+    }
+    .banner .col-5 .banner-man{
+        position: absolute;
+        bottom: 5%;
+        right: 25%;
+    }
+    .banner .col-7{
+        width: 100%;
+        padding-top: 650px;
+    }
+    .banner .col-5 .blue-dots-1{
+        display: none;
+    }
+    .banner .col-5 .blue-dots-2{
+        display: none;
+    }
+    .banner .col-5 .yellow-shape{
+        display: none;
+    }
+    .banner .popup{
+        display: none;
+    }
+    .banner h1{
+        font-size: 44px;
+        margin-bottom: 10px;
+    }
+    .banner p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ===== Services ===== */
+    .service{
+        padding: 50px 0;
+    }
+    .service .service-heading h2{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .service .service-heading p{
+        font-size: 18px;
+        max-width: 550px;
+        line-height: 25px;
+    }
+    .service .col-4{
+        width: 50%;
+    }
+    .service .cards .card-data-main{
+        background-color: #fff;
+        padding: 20px 40px;
+    }
+    
+    /* ====== Features ====== */
+    .features .carousel-inner .carousel-item .col-6{
+        width: 100%;
+    }
+    .features .carousel-inner .carousel-item .col-6 img{
+        padding-left: 40px;
+        width: 100%;
+    }
+    .features .data{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    /* ====== About - Us ====== */
+    .about-us{
+    margin: 100px 0 ;
+}
+    .about-us .col-5{
+        width: 100%;
+    }
+    .about-us .mn-frm{
+        margin-top: 30px;
+        width: 70%;
+    }
+    .about-us .mn-frm .main-form{
+        transform: rotate(0deg);
+    }
+    .about-us h2{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .about-us p{
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    /* ===== Project ===== */
+    .project .col-5 h2{
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .project .col-5{
+        width: 100%;
+    }
+    .project .col-7{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+    .project .col-4{
+        width: 50%;
+    }
+
+    /* ====== Expert ====== */
+    .expert .col-3{
+        width: 50%;
+    }
+    .expert .sub-title{
+        margin-bottom: 15px !important;
+    }
+    .expert .title-section h2{
+        line-height: 42px !important;
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .expert .title-section p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .expert .exp-card{
+        padding: 60px 0;
+    }
+
+    /* ====== testimonial ====== */
+    .testimonial .col-6{
+        width: 100%;
+    }
+    .testimonial .title-section h2{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .testimonial .title-section p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    /* ======= Team ======= */
+    .team .col-6{
+        width: 100%;
+    }
+    .team .team-data{
+        margin-top: 30px;
+    }
+    .team .main-image .team-img{
+        margin: 0 auto;
+    }
+    .team .main-image .other-shape .yellow-shape{
+        left: 0;
+    }
+    .team .main-image .other-shape .pop-circle{
+        left: 20%;
+    }
+
+    /* ====== Pricing ====== */
+    .pricing .col-5{
+        padding: 30px 100px;
+        width: 100%;
+    }
+    .pricing .pricing-card .p-card-main{
+        padding: 20px;
+    }
+    .pricing .pricing-card .p-card-main ul{
+        padding: 0;
+    }
+    .pricing .title-section h2{
+        font-size: 25px;
+        line-height: 48px;
+    }
+    .pricing .title-section .info{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .pricing .one .pricing-card{
+        box-shadow: none;
+    }
+
+    /* ====== clients ====== */
+    .clients .main-4{
+        width: 100%;
+    }
+    .clients .col-8{
+        width: 100%;
+    }
+    .clients .title-section{
+        padding-left: 60px;
+    } 
+    .clients .title-section h2{
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .clients .title-section p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+ 
+    /* ====== Stories ====== */
+    .stories .story-cards-img .img-inner{     
+        width: 20%;
+    }
+    .stories .col-6{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .stories .col-6 img{
+        margin-left: 150px;
+    }
+    .stories .title-section h2{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .stories .title-section .main{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* ====== Work ====== */
+    .work{
+        padding: 50px 0;
+    }
+    .work .blue-dots{
+        right: -21% !important;
+        top: -92% !important;
+    }
+    .work .green-dots{
+        left: -23% !important;
+        bottom: -80% !important;
+    }
+    .work .pop-circle{
+        left: 10% !important;
+        bottom: -23% !important;
+    }
+    .work .title-section{
+        margin-bottom: 20px;
+    }
+    .work .title-section h2{
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 0;
+    }
+
+    /* ======= Footer ====== */
+    footer form{
+        display: block;
+    }
+    footer form input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .col-6{
+        margin-bottom: 50px;
+    }
+    footer .col-3{
+        margin-bottom: 50px;
+    }
+    footer .col-2{
+        margin-bottom: 50px;
+    }
+    footer .col-1{
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:767px){
+    .container{ 
+        padding-left:30px;
+        padding-right:30px;
+    }
+    
+    /* ===== Banner ===== */
+    .banner{
+        padding-bottom: 0;
+    }
+    .banner h1{
+        font-size: 31px;
+        margin-bottom: 10px;
+    }
+    .banner p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .banner .col-7{
+        width: 100%;
+        padding-top: 600px;
+    }
+    .banner .col-5 .banner-man{
+        position: absolute;
+        bottom: 5%;
+        right: 10%;
+    }
+
+    /* ====== Services ===== */
+    .service .service-heading h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .service .cards .cards-data p{
+        font-size: 16px;
+    }
+    .service .cards .card-data-main{
+        background-color: #fff;
+        padding: 20px 20px;
+    }
+    .service .cards .cards-data h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .service .cards .cards-data .cards-data-link a{
+        font-size: 16px;
+    }
+
+    /* ====== Features ====== */
+    .features .carousel-inner .carousel-item .col-6{
+        width: 100%;
+    }
+    .features .carousel-inner .carousel-item .col-6 img{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .features .data{
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+    .features .features-data h3{
+        font-size: 30px;
+    }
+    .features .features-data p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    /* ====== About - Us ====== */
+    .about-us .mn-frm{
+        margin-top: 60px;
+        width: 100%;
+    }
+    .about-us .about-contact{
+        font-size: 18px;
+        padding: 0 !important;
+    }
+    .about-us .about-contact span{
+        font-size: 18px;
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+
+    /* ===== Expert ===== */
+    .expert{
+        padding: 0 0 50px;
+    }
+    .expert .exp-card{
+        box-shadow: none;
+    }
+    .expert .second, .expert .fourth{
+        margin: 0;
+    }
+    .expert .col-3{
+        padding: 0;
+    }
+    
+    /* ====== testimonial ====== */
+    .testimonial{
+        padding: 0 0 50px;  
+    }
+    .testimonial .col-6{
+        padding: 0;
+    }
+    .testimonial .tsti-card .image-section{
+        display: block;
+    }
+    .testimonial .tsti-card .image-section h4{
+        margin-top: 20px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .testimonial .tsti-card .image-section p{
+        font-size: 16px !important;
+        line-height: 28px;
+    }
+    .testimonial .tsti-card .data-section span{
+        font-size: 20px;
+        line-height: 28px;
+    }
+        
+    /* ======= Team ======= */
+    .team .col-6{
+        width: 100%;
+    }
+    .team .team-data{
+        padding-left: 30px;
+        padding-right: 0;
+        margin-top: 30px;
+    }
+    .team .team-data h2{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .team .team-data p{
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .team .main-image .team-img{
+        margin: 0 auto;
+    }
+    .team .main-image .other-shape .yellow-shape{
+        left: 0;
+    }
+    .team .main-image .other-shape .pop-circle{
+        left: 20%;
+    }
+
+    /* ====== Pricing ====== */
+    .pricing .extra-img .dots-img{
+        opacity: 0 !important;
+    }
+    .pricing .col-5{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* ====== Stories ====== */
+    .stories .col-6 img{
+        margin-left: 20px;
+    }
+    
+    /* ====== Work ====== */
+    .work{
+        padding: 50px 0;
+    }
+    .work .blue-dots{
+        display: none !important;
+    }
+    .work .green-dots{
+        display: none !important;
+    }
+    .work .pop-circle{
+        display: none !important;
+    }
+    .work .title-section{
+        margin-bottom: 20px;
+    }
+    .work .title-section h2{
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 0;
+    }
+    .work .call p{
+        font-size: 14px;
+    }
+    .work .call p span{
+        font-size: 18px;
+    }
+
+    /* ====== Footer ====== */
+    footer .row .col-6 h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    footer .row .col-6 p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    /* ====== Footer - End ====== */
+    .footer-end .main{
+        display: block !important;
+        text-align: center;
+    }
+    .footer-end ul{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-end p{
+        font-size: 14px !important;
+    }
+    .footer-end a{
+        font-size: 14px !important;
+    }
+}
+@media(max-width:576px){
+    .container{ 
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    /* ===== Header ===== */
+    header .navbar-brand .brand-shape{
+        width: 40px;
+        height: 40px;
+    }
+    header .navbar-brand .brand-shape .circle{
+        height: 20px;
+        width: 20px;
+        border: solid 4px #fff;
+    }
+    header .navbar-brand:hover .circle{
+        height: 20px;
+        width: 20px;
+        border: solid 4px #fff;
+    }
+    header .navbar-brand .brand-shape .round{
+        height: 4px;
+        width: 4px;
+    }
+    header .navbar-brand:hover .round{
+        height: 4px;
+        width: 4px;
+    }
+    header .navbar-brand .brand-data{
+        padding-left: 7px;
+    }
+    header .navbar-brand .brand-data h5{
+        margin: 0;
+        font-weight: 500;
+    }
+    header .navbar-brand .brand-data p{
+        opacity: 0.6;
+        font-size: 12px;
+    }
+    header .navbar-toggler{
+        height: 40px;
+        width: 40px; 
+    }
+    header .navbar-toggler i{
+        font-size: 16px;
+    }
+    
+    /* ===== Banner ===== */
+    .banner .col-7{
+        width: 100%;
+        padding-top: 500px;
+    }
+    .banner p{
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    
+    /* ===== Services ===== */
+    .service .col-4{
+        width: 100%;
+    }
+    .service .service-heading p{
+        font-size: 16px;
+    }
+    .service .col-4{
+        padding: 30px 15px;
+    }
+    
+    /* ====== Features ====== */
+    .features .carousel-inner .carousel-item .col-6{
+        width: 100%;
+    }
+    .features .carousel-inner .carousel-item .col-6 img{
+        padding-left: 5px;
+        width: 100%;
+    }
+    .features .data{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    /* ===== ABout - Us ====== */
+    .about-us .main-form{
+        box-shadow: none;
+        padding: 0;
+    }
+    .about-us p{
+        font-size: 16px !important;
+        line-height: 24px;
+    }
+    .about-us form h3{
+        font-size: 28px;
+    }
+    .about-us form input{
+        margin: 20px 0;
+    }
+    
+    /* ===== Project ===== */
+    .project .col-5 h2{
+        font-size: 28px;
+    }
+    .project .col-4{
+        padding: 0 5px;
+        width: 100%;
+    }
+    .project ul{
+        margin: 0;
+        padding: 0;
+        flex-wrap: nowrap !important;
+    }
+    .project ul li button{
+        margin: 0 !important;
+    }
+    .project .cards-data h3{
+        font-size: 21px;
+    }
+    .project .cards-data p{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .project .cards-data{
+        padding-top: 10px;
+    }
+    .project .cstm-btn{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .project .cstm-btn span{
+        left: 50%;
+        padding: 20px 20px;
+        transform: translate(-50%);
+    }
+    .project .cstm-btn .btn-border{
+        width: 100%;
+    }
+    .project .cstm-btn .btn-color{
+        width: 100%;
+    }
+    .project .cstm-btn:hover .btn-color{
+        width: 100%;
+    }
+
+    /* ===== Expert ===== */
+    .expert{
+        padding-bottom: 100px;
+    }
+    .expert h2{
+        line-height: 60px !important;
+    }
+    .expert .exp-card{
+        padding: 40px 0 20px;
+    }
+    .expert .exp-card h3{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .expert .title-section h2{
+        line-height: 35px !important;
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .expert .title-section p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .expert .title-section{
+        margin-bottom: 0;
+    }
+
+    /* ====== Testimonial ====== */ 
+    .testimonial{
+        padding-bottom: 0;
+    }
+    .testimonial .tsti-card{
+        padding: 50px 30px;
+    }
+    .testimonial .tsti-card .data-section span{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* ======= Team ======= */
+    .team{
+        padding-bottom: 50px;
+    }
+    .team .team-data{
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .team .other-shape .yellow-shape{
+        position: absolute;
+        top: 30%;
+        left: 5% !important;
+        z-index: -5;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #ffcd3e;
+    }
+    .team .other-shape .pop-circle{
+        left: 25%;
+        height: 100px;
+        width: 100px;
+    }
+    
+    /* ====== Pricing ====== */
+    .pricing{
+        padding-bottom: 0;
+    }
+    .pricing .col-5{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /* ====== clients ====== */
+    .clients{
+        padding-bottom: 0;
+    }
+    .clients .main-4{
+        width: 100%;
+    }
+    .clients .col-8{
+        width: 100%;
+    }
+    .clients .col-8 .col-4{
+        width: 50%;
+    }
+    .clients .col-8 .col-4{
+        width: 50%;
+        padding: 40px 30px;
+    }
+    .clients .title-section{
+        padding-left: 0px;
+    } 
+    .clients .title-section h2{
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .clients .title-section p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /* ====== Stories ======= */
+    .stories .story-cards-img .img-inner{     
+        width: 10%;
+    }
+    .stories .story-cards p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .stories .story-cards a{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .stories .story-cards{
+        width: 80% !important;
+    }
+    .stories .title-section .main{
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    /* ====== Work ====== */
+    .work .call p{
+        font-size: 12px;
+        padding: 0;
+    }
+    .work .call p span{
+        font-size: 14px;
+    }
+
+    /* ====== Footer ======= */
+    
+    footer .col-6{
+        width: 100%;
+        padding-left: 0;
+    }
+    footer .col-3{
+        width: 100%;
+        padding-left: 0;
+    }
+    footer .col-2{
+        width: 100%;
+        padding-left: 0;
+    }
+    footer .col-1{
+        width: 100%;
+        padding-left: 0;
+    }
+    footer .footer-main ul li{
+        padding: 3px 0 !important;
+    }
+    footer .social-icons li i{
+        text-align: center;
+        font-size: 20px;
+        color: #999ab6;
+        transition: all 0.5s;
+    }
+
+    /* ====== Footer - End ====== */
+    .footer-end p{
+        font-size: 12px !important;
+    }
+    .footer-end a{
+        font-size: 12px !important;
+    }
+}
+@media(max-width:429px){
+    /* ===== Banner ===== */
+    .banner .col-7{
+        width: 100%;
+        padding-top: 350px;
+    }
+    .banner .col-5 .banner-man{
+        width: 150px;
+        height: 200px;  
+    }
+}
+@media(max-width:327px){
+    /* ===== Banner ===== */
+    .banner .col-7{
+        width: 100%;
+        padding-top: 250px;
+    }
+}
